@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/internship/static/css/main.25bba36b.css",
+    "main.js": "/internship/static/js/main.25b85edf.js",
+    "static/media/Site Stats-cuate 1 (1).png": "/internship/static/media/Site Stats-cuate 1 (1).d5deef531de2778ca4e1.png",
+    "static/media/hero.png": "/internship/static/media/hero.96afc36e3f7462e8c2fb.png",
+    "static/media/01.-Advertising 1.png": "/internship/static/media/01.-Advertising 1.83654514f111d57d1f68.png",
+    "static/media/cardMedia1.png": "/internship/static/media/cardMedia1.1f31f5211e783c18e40b.png",
+    "static/media/mobile 1.png": "/internship/static/media/mobile 1.9aa6eb9aefb628455228.png",
+    "static/media/Cloud-Services.png": "/internship/static/media/Cloud-Services.817cc798c5c74880eedb.png",
+    "index.html": "/internship/index.html",
+    "main.25bba36b.css.map": "/internship/static/css/main.25bba36b.css.map",
+    "main.25b85edf.js.map": "/internship/static/js/main.25b85edf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.25bba36b.css",
+    "static/js/main.25b85edf.js"
+  ]
+}
