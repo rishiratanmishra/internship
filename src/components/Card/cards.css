@@ -1,0 +1,43 @@
+.card-body {
+    display: flex;
+    border-radius: 30px;
+    border: 1px solid rgba(128, 128, 128, 0.523);
+    justify-content: center;
+    align-items: center;
+    padding: 6rem 5rem 5rem 1rem;
+    width: 50%;
+    gap: 5rem;
+}
+
+.card-content-box {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.card-content-box .cr-title {
+
+    font-weight: 900;
+    font-size: 1.8rem;
+    line-height: 30px;
+    font-family: 'Poppins';
+}
+
+.card-content-box .cr-para {
+
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 17px;
+
+
+}
+
+.card-content-box button {
+    border: none;
+    text-align: left;
+    color: #D25412;
+    background-color: #d2551200;
+
+}

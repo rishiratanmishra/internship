@@ -1,0 +1,37 @@
+.no-block{
+    display: flex;
+    gap: 3rem;
+    padding: 3rem;
+}
+
+.no-block-content{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.hr{
+    width: 100%;
+    border: 2px solid #FFC727;
+    ;
+}
+.no-block-content h2{
+    
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 800;
+font-size: 28px;
+line-height: 112%;
+color:  #686868;
+;
+}
+
+.no-block-content p{
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 1.8rem;
+line-height: 112%;
+text-align: center;
+}

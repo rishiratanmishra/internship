@@ -1,0 +1,44 @@
+
+.number-speaks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 14rem;
+    padding-bottom: 2rem;
+    }
+    
+    .no-title{
+        width: 30%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 3rem;
+    line-height: 155%;
+    text-align: center;
+    }
+
+    .services-block{
+        display: flex;
+        padding: 4rem;
+    }
+.left-services-block{
+    width: 50%;
+}
+.right-services-block{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.line-services-tracked{
+   display: flex;
+   flex-direction: column;
+   gap: 4rem;
+}
+.services-tracked{
+    display: flex;
+    gap: 4rem;
+    margin-bottom: 2rem;
+}

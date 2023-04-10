@@ -1,0 +1,74 @@
+.who-we-are{
+    padding: 4rem;
+}
+
+.who-we-are h2{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 45px;
+line-height: 125%;
+text-align: center;
+}
+.who-we-are-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+}
+
+.who-we-are-left{
+    width: 50%;
+    padding: 8rem;
+}
+.who-we-are-left-content{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    align-items: center;
+}
+.who-we-are-left-content p{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140.5%;
+    text-align: justify;
+}
+
+.who-we-are-right{
+    width: 50%;
+
+}
+
+.who-we-are-right-box{
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    justify-content: center;
+    align-items: center;
+}
+.who-we-are-right-box-first-image-block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+.who-we-are-right-box-first-image-block img{
+    width: 60px;
+}
+
+.who-we-are-right-box-first-image-block p{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    font-size: 1.3rem;
+    line-height: 19px;
+}
+.who-we-are-right-box-first{
+    width: 40%;
+    display: flex;
+    gap: 6rem;
+}

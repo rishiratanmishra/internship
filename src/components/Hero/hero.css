@@ -1,0 +1,190 @@
+.hero-section{
+    display: flex;
+    width: 100%;
+    padding: 11rem;
+  padding-bottom: 0rem;
+  }
+  
+  .left-hero-section{
+    width: 50%;
+    /* background-color: aquamarine; */
+  }
+  
+  .left-hero-section-content{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 8rem;
+    /* background-color: blueviolet; */
+  }
+  .left-hero-section-content h2{
+    width: 430px;
+    height: 168px;
+    
+    font-family: 'Poppins', sans-serif;   
+    font-weight: 600;
+
+    font-size: 45px;
+    line-height: 125%;
+    /* or 56px */
+    
+    display: flex;
+    align-items: center;
+    
+    /* black */
+    
+    color: #1E1E1E;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  
+  .left-hero-section-content p{
+    width: 402px;
+    height: 72px;
+    
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    
+    /* black */
+    
+    color: #1E1E1E;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+  
+  
+  .right-hero-section{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: rgb(238, 219, 7); */
+  }
+  /* 
+  .right-hero-section-content{
+  }*/
+  .right-hero-section-content img{
+    width: 100%;
+  }
+  
+  
+  
+  /* For Tablet */
+  @media (max-width:900px){
+    .hero-section{
+      display: flex;
+     width: 100%;
+     padding: 0rem;
+    }
+  
+  .left-hero-section-content{
+    gap: 2rem;
+    padding: 4rem;
+  }
+  .left-hero-section-content h2{
+    font-size: 2rem;
+  }
+  
+  .left-hero-section-content p{
+    font-size: 1.7rem;
+  }
+  
+  }
+  
+  
+  
+  
+  /* For Tablet */
+  @media only screen and (max-width: 1100px) and (min-width: 900px){
+    .hero-section{
+      display: flex;
+     width: 100%;
+     padding-top: 10rem;
+    }
+  
+  .left-hero-section-content{
+    gap: 2rem;
+    padding: 4rem;
+  }
+  .left-hero-section-content h2{
+    font-size: 2.5rem;
+  }
+  
+  .left-hero-section-content p{
+    font-size: 1.9rem;
+  }
+  
+  }
+  
+  
+  
+  
+  
+  
+  /* Responsive navbar For Mobile */
+  @media (max-width:500px){
+    .hero-section{
+      display: block;
+     width: 100%;
+     padding: 0rem;
+     /* height: 100vh; */
+    }
+  .left-hero-section{
+    width: 100%;
+  }
+  .left-hero-section-content{
+    gap: 2rem;
+    padding-top: 10rem;
+  }
+  .left-hero-section-content h2{
+    font-size: 2rem;
+    text-align: center;
+  }
+  
+  .left-hero-section-content p{
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  
+  .send-message{
+    align-self: center;
+  }
+  
+  .lottie_css {
+    width: 100%;
+    margin-top: -10rem;
+  }
+  
+  
+  
+  .right-hero-section{
+    width: 100%;
+    
+  }
+  
+  .right-hero-section-content{
+    padding: 2rem;
+  }
+  .right-hero-section-content img {
+    width: 100%;
+    
+  }
+  
+  
+  
+  }

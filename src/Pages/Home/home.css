@@ -1,0 +1,21 @@
+.main-services{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.our-services{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 2.8rem;
+}
+
+.cards-in-home{
+    display: flex;
+    gap: 8rem;
+    padding: 5rem 8rem 3rem 10rem;
+
+}
